@@ -21,7 +21,7 @@ models.png: Diagram illustrating the model architecture.
 url_train_dataset.csv: Dataset used for training the model.
 Installation and Usage
 Clone the Repository:
-git clone https://github.com/anubhavmishra123/Phishing-website-detection-ML-flask.git
+git clone https://github.com/rsrogan/tool-to-detect-phishing-website.git
 
 Install Dependencies:
 pip install -r requirements.txt
