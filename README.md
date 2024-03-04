@@ -1,4 +1,5 @@
-Phishing Website Detection using ML and Flask
+#Phishing Website Detection using ML and Flask
+
 Phishing is a prevalent form of cyber-attack where users are tricked into visiting illegitimate websites. These websites can lead to the exposure of sensitive information such as usernames, passwords, bank details, and card details. In this project, we focus on detecting phishing websites using machine learning techniques by analyzing features extracted from their URLs.
 
 Project Overview
