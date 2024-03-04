@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+    <title>Phish-In</title>
+    <meta name="description" content="rs_rogan">
+    <meta name="og:title" property="og:title" content="rs_rogan">
+    <meta name="keywords" content="rs_rogan">
+    <meta name="author" content="rs_rogan">
+    <meta name="robots" content="index, follow">
+
+
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='site.webmanifest') }}">
+</head>
+
+<body>
+
+    {% block content %}{% endblock %} {% if '/preview' not in request.path %}
+    <div class="app-footer">
+        <a href="https://github.com/rsrogan/tool-to-detect-phishing-website" target="_blank" rel="noopener"><strong>GitHub</strong> </a>
+        <span> </span> <a href="https://github.com/rsrogan" target="_blank" rel="noopener"> <strong>@rs_rogan</strong></a>
+    </div>
+    {% endif %}
+
+</body>
+
+</html>
